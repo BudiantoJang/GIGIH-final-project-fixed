@@ -5,6 +5,8 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+Customer.create(name: "Budianto", email: "budiantoj55@gmail.com")
+Customer.create(name: "Fajri", email: "FajriMutawadhi@gmail.com")
 
 Item.create(name: "Nasi Goreng", description: "Nasi goreng adalah sebuah makanan berupa nasi yang digoreng dan diaduk dalam minyak goreng, margarin, atau mentega.", price: 15000)
 Item.create(name: "Capcay", description: "Capcay adalah masakan yang terbuat dari campuran aneka sayuran dengan tambahan bakso, daging, atau seafood.", price: 20000)

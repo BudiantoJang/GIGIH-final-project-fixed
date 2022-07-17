@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'order/index'
+  get 'order/', to: 'order#index'
   get 'order/show'
   get 'order/create'
   get 'order/update'
@@ -9,4 +9,3 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "articles#index"
 end
-  
