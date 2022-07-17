@@ -1,2 +1,7 @@
+# frozen_string_literal: true
+
 class OrderDetail < ApplicationRecord
-end
+    belongs_to :order
+    belongs_to :item
+  end
+  
